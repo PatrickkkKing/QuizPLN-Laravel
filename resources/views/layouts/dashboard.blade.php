@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/bootstrap-utillities.css') }}">
     <link rel="stylesheet" href="{{ asset('css/styleapp.css') }}">
-    <script src="stylesheet" href="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
 </head>
 <body>
     <div class="aside1">
@@ -44,7 +44,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="{{url('welcome/')}}">
+                    <a href="{{url('home/')}}">
                         <img class="icon" src="{{url('../resources/img/menu.png')}}" alt=""> Logout
                     </a>
                 </li>

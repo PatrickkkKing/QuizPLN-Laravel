@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/bootstrap-utillities.css') }}">
     <link rel="stylesheet" href="{{ asset('css/styleapp.css') }}">
-    <script src="stylesheet" href="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
 </head>
 <body>
     <div id="app">
@@ -42,15 +42,15 @@
                         <!-- Authentication Links -->
                         @guest
                             @if (Route::has('login'))
-                                <button class="btn btn-secondary btn-sm rounded-3 me-3">
-                                    <a class="nav-link text-light" href="{{ route('login') }}">{{ __('Login') }}</a>
-                                </button>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                </li>
                             @endif
 
                             @if (Route::has('register'))
-                                <button class="btn btn-secondary btn-sm rounded-3">
-                                    <a class="nav-link text-light"
-                                        href="{{ route('register') }}">{{ __('Register') }}</a></button>
+                                <li class="nav-item text-white">
+                                    <a class="nav-link text-white" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                </li>
                             @endif
                         @else
                             <li class="nav-item dropdown">

@@ -13,15 +13,15 @@
         <table class="table table-bordered border-primary table-hover ">
             <tr>
                 <th>ID</th>
-                <th>ID PELANGGAN</th>
+                <th>NAMA GOLONGAN PELANGGAN</th>
                 <th>No. PELANGGAN</th>
                 <th>NAMA PELANGGAN</th>
                 <th>ALAMAT PELANGGAN</th>
                 <th>NoHp PELANGGAN</th>
                 <th>KTP PELANGGAN</th>
                 <th>SERI PELANGGAN</th>
-                <th>METERAN PELANGGAN</th>
-                <th>STATUS/AKTIF PELANGGAN</th>
+                <th>NO METERAN</th>
+                <th>STATUS/AKTIF</th>
                 <th>USER ID PELANGGAN</th>
                 <th>TANGGAL PENAMBAHAN</th>
                 <th>TANGGAL PERUBAHAN</th>

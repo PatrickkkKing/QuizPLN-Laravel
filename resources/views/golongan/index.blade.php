@@ -9,6 +9,7 @@
                 <a class="btn btn-sm float-end" href="{{url('golongan/create')}}"><input type="submit" value="TAMBAH" class="btn btn-success"></input></a>
             </h3>
         </div>
+
         <table class="table table-bordered border-primary table-hover overflow-x-auto">
             <tr>
                 <th>ID</th>
